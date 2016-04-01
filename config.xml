@@ -1,0 +1,5 @@
+<?xml version="1.0"?>  
+<config>  
+<className>cn.pattern.command.HelpCommand</className>  
+<className>cn.pattern.command.MinimizeCommand</className>  
+</config> 

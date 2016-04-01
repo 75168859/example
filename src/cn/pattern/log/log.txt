@@ -1,0 +1,16 @@
+请你研发一个灵活,易修改,易扩展的LogFramework,支持配置文件
+Log Message 包含时间线程消息等内容
+Log Message 级别也可能有变化(Info,Debug,warring,error)
+容许多种输出目的地(比如File,后台Console,Socket Server,
+JMS 等等)
+容许多种格式化方式(比如text 文本,XML 格式,其他格式)
+一般一个目的地对应一种格式化方式,
+可以灵活配置那一种格式化方式
+输出条件要灵活扩展(符合某些条件才可能输出到一个目的地)
+同一条log Message,可以支持多种输出目的地, 
+  格式化也可能支持多种.
+配置文件使用property 格式(Key/Value)
+可以容许开发人员,开发新的目的地,格式方式,以及输出关系等. 
+尽量修改比较少
+
+
